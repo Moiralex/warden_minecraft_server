@@ -8,23 +8,31 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-04-21 17:05:29 +0300",
-      "minecraft:flower_forest": "2025-04-22 14:27:22 +0300",
       "minecraft:snowy_slopes": "2025-04-21 16:03:38 +0300",
-      "minecraft:beach": "2025-04-23 01:22:41 +0300",
-      "minecraft:dark_forest": "2025-04-23 01:26:16 +0300",
       "minecraft:forest": "2025-04-21 17:03:46 +0300",
-      "minecraft:river": "2025-04-21 16:47:58 +0300",
-      "minecraft:stony_shore": "2025-04-21 16:59:35 +0300",
+      "minecraft:deep_ocean": "2025-04-23 15:15:49 +0300",
       "minecraft:deep_cold_ocean": "2025-04-21 17:06:43 +0300",
+      "minecraft:windswept_forest": "2025-04-23 15:36:25 +0300",
       "minecraft:ocean": "2025-04-23 01:23:21 +0300",
+      "minecraft:jungle": "2025-04-23 15:00:10 +0300",
       "minecraft:cherry_grove": "2025-04-21 16:34:31 +0300",
       "minecraft:sunflower_plains": "2025-04-22 14:29:35 +0300",
-      "minecraft:swamp": "2025-04-23 01:17:30 +0300",
-      "minecraft:meadow": "2025-04-21 16:05:03 +0300",
       "minecraft:birch_forest": "2025-04-23 01:26:06 +0300",
       "minecraft:windswept_hills": "2025-04-23 01:15:50 +0300",
-      "minecraft:savanna": "2025-04-22 14:27:43 +0300",
       "minecraft:windswept_savanna": "2025-04-23 01:15:58 +0300",
+      "minecraft:deep_lukewarm_ocean": "2025-04-23 15:06:26 +0300",
+      "minecraft:flower_forest": "2025-04-22 14:27:22 +0300",
+      "minecraft:savanna_plateau": "2025-04-23 15:42:35 +0300",
+      "minecraft:beach": "2025-04-23 01:22:41 +0300",
+      "minecraft:dark_forest": "2025-04-23 01:26:16 +0300",
+      "minecraft:river": "2025-04-21 16:47:58 +0300",
+      "minecraft:lukewarm_ocean": "2025-04-23 15:05:59 +0300",
+      "minecraft:stony_shore": "2025-04-21 16:59:35 +0300",
+      "minecraft:old_growth_birch_forest": "2025-04-23 15:13:43 +0300",
+      "minecraft:swamp": "2025-04-23 01:17:30 +0300",
+      "minecraft:meadow": "2025-04-21 16:05:03 +0300",
+      "minecraft:windswept_gravelly_hills": "2025-04-23 15:24:15 +0300",
+      "minecraft:savanna": "2025-04-22 14:27:43 +0300",
       "minecraft:plains": "2025-04-21 15:58:25 +0300",
       "minecraft:jagged_peaks": "2025-04-21 16:18:10 +0300"
     },
@@ -2463,6 +2471,246 @@
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2025-04-23 01:26:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-04-23 15:04:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:44:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:47:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-04-23 15:04:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-04-23 15:34:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-04-23 15:33:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:47:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:47:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:44:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-04-23 15:33:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-04-23 15:00:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-04-23 15:33:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2025-04-23 15:51:53 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-04-23 15:47:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:44:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-04-23 15:33:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:44:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-04-23 15:04:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:44:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:44:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:47:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-04-23 15:00:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:47:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-04-23 15:00:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:47:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-04-23 15:33:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:47:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-04-23 15:32:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-04-23 15:47:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-04-23 15:33:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-04-23 15:00:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:47:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:47:36 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:44:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-04-23 15:32:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:44:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-04-23 15:00:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-04-23 15:44:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:all_black": "2025-04-23 15:34:24 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-04-23 15:00:31 +0300"
     },
     "done": true
   },
