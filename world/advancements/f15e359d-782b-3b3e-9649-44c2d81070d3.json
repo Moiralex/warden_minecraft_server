@@ -8,21 +8,34 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-04-21 18:43:50 +0300",
-      "minecraft:flower_forest": "2025-04-22 14:16:26 +0300",
       "minecraft:snowy_slopes": "2025-04-19 12:55:37 +0300",
       "minecraft:forest": "2025-04-20 19:17:51 +0300",
       "minecraft:taiga": "2025-04-20 23:42:18 +0300",
-      "minecraft:sparse_jungle": "2025-04-22 15:03:11 +0300",
-      "minecraft:river": "2025-04-19 21:14:45 +0300",
-      "minecraft:stony_shore": "2025-04-20 23:11:38 +0300",
-      "minecraft:dripstone_caves": "2025-04-19 13:35:18 +0300",
+      "minecraft:deep_cold_ocean": "2025-04-23 00:58:00 +0300",
+      "minecraft:ice_spikes": "2025-04-23 01:04:54 +0300",
+      "minecraft:frozen_ocean": "2025-04-23 01:02:25 +0300",
       "minecraft:frozen_river": "2025-04-19 21:15:45 +0300",
-      "minecraft:deep_dark": "2025-04-19 13:40:16 +0300",
+      "minecraft:deep_frozen_ocean": "2025-04-23 01:00:58 +0300",
       "minecraft:ocean": "2025-04-22 13:08:22 +0300",
       "minecraft:jungle": "2025-04-22 15:18:08 +0300",
       "minecraft:cherry_grove": "2025-04-19 12:53:45 +0300",
       "minecraft:sunflower_plains": "2025-04-22 13:08:08 +0300",
+      "minecraft:birch_forest": "2025-04-23 01:26:14 +0300",
+      "minecraft:windswept_hills": "2025-04-23 01:15:44 +0300",
+      "minecraft:snowy_beach": "2025-04-23 01:02:38 +0300",
+      "minecraft:windswept_savanna": "2025-04-23 01:15:47 +0300",
+      "minecraft:flower_forest": "2025-04-22 14:16:26 +0300",
+      "minecraft:beach": "2025-04-23 01:22:39 +0300",
+      "minecraft:dark_forest": "2025-04-23 01:26:25 +0300",
+      "minecraft:sparse_jungle": "2025-04-22 15:03:11 +0300",
+      "minecraft:river": "2025-04-19 21:14:45 +0300",
+      "minecraft:stony_shore": "2025-04-20 23:11:38 +0300",
+      "minecraft:snowy_plains": "2025-04-23 01:03:48 +0300",
+      "minecraft:dripstone_caves": "2025-04-19 13:35:18 +0300",
+      "minecraft:snowy_taiga": "2025-04-23 01:02:44 +0300",
+      "minecraft:deep_dark": "2025-04-19 13:40:16 +0300",
       "minecraft:grove": "2025-04-20 23:37:18 +0300",
+      "minecraft:swamp": "2025-04-23 01:16:43 +0300",
       "minecraft:meadow": "2025-04-19 12:53:42 +0300",
       "minecraft:savanna": "2025-04-22 14:18:37 +0300",
       "minecraft:plains": "2025-04-19 12:51:59 +0300",
@@ -414,6 +427,7 @@
       "minecraft:blaze": "2025-04-22 16:08:46 +0300",
       "minecraft:skeleton": "2025-04-19 13:42:52 +0300",
       "minecraft:wither_skeleton": "2025-04-22 16:11:12 +0300",
+      "minecraft:hoglin": "2025-04-23 00:27:18 +0300",
       "minecraft:cave_spider": "2025-04-19 21:11:31 +0300",
       "minecraft:piglin": "2025-04-22 15:44:08 +0300",
       "minecraft:breeze": "2025-04-20 21:31:14 +0300",
@@ -2603,15 +2617,36 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/observer": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "has_quartz": "2025-04-22 15:34:17 +0300"
+      "minecraft:crimson_forest": "2025-04-22 15:34:11 +0300",
+      "minecraft:nether_wastes": "2025-04-22 15:33:03 +0300",
+      "minecraft:soul_sand_valley": "2025-04-22 16:09:48 +0300",
+      "minecraft:basalt_deltas": "2025-04-22 15:58:31 +0300"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-04-22 15:33:03 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/crimson_button": {
+  "minecraft:story/enter_the_nether": {
     "criteria": {
-      "has_planks": "2025-04-22 15:40:02 +0300"
+      "entered_nether": "2025-04-22 15:33:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-04-22 15:34:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-04-22 15:34:17 +0300"
     },
     "done": true
   },
@@ -2621,9 +2656,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+  "minecraft:recipes/building_blocks/diorite": {
     "criteria": {
-      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
+      "has_quartz": "2025-04-22 15:34:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-04-22 15:34:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-04-22 15:34:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-04-22 15:34:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2025-04-22 15:39:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2025-04-22 15:39:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2025-04-22 15:40:02 +0300"
     },
     "done": true
   },
@@ -2636,6 +2707,54 @@
   "minecraft:recipes/building_blocks/crimson_stairs": {
     "criteria": {
       "has_planks": "2025-04-22 15:40:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-22 15:40:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2025-04-22 15:40:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2025-04-22 15:40:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-22 15:40:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2025-04-22 15:40:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-22 15:40:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-04-22 15:40:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-04-22 15:40:37 +0300"
     },
     "done": true
   },
@@ -2663,21 +2782,6 @@
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:crimson_forest": "2025-04-22 15:34:11 +0300",
-      "minecraft:nether_wastes": "2025-04-22 15:33:03 +0300",
-      "minecraft:soul_sand_valley": "2025-04-22 16:09:48 +0300",
-      "minecraft:basalt_deltas": "2025-04-22 15:58:31 +0300"
-    },
-    "done": false
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2025-04-22 15:33:03 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/nether_bricks": {
     "criteria": {
       "has_nether_brick": "2025-04-22 15:45:49 +0300"
@@ -2687,30 +2791,6 @@
   "minecraft:recipes/building_blocks/polished_blackstone": {
     "criteria": {
       "has_blackstone": "2025-04-22 15:45:49 +0300"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2025-04-22 15:33:03 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-04-22 15:40:37 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/crimson_planks": {
-    "criteria": {
-      "has_logs": "2025-04-22 15:39:56 +0300"
     },
     "done": true
   },
@@ -2726,51 +2806,9 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2025-04-22 16:11:55 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_stairs": {
-    "criteria": {
-      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-04-22 15:45:49 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_slab": {
-    "criteria": {
-      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/crimson_hyphae": {
-    "criteria": {
-      "has_log": "2025-04-22 15:39:56 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crimson_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-04-22 15:40:02 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crimson_fence": {
-    "criteria": {
-      "has_planks": "2025-04-22 15:40:02 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2025-04-22 15:40:37 +0300"
     },
     "done": true
   },
@@ -2780,21 +2818,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crimson_sign": {
-    "criteria": {
-      "has_planks": "2025-04-22 15:40:02 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-04-22 15:45:49 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
     },
     "done": true
   },
@@ -2804,45 +2830,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2025-04-22 16:11:55 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-04-22 15:45:49 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crimson_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-04-22 15:40:02 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/nether_brick_wall": {
-    "criteria": {
-      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite": {
-    "criteria": {
-      "has_quartz": "2025-04-22 15:34:17 +0300"
     },
     "done": true
   },
@@ -2852,57 +2842,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/granite": {
-    "criteria": {
-      "has_quartz": "2025-04-22 15:34:17 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crimson_door": {
-    "criteria": {
-      "has_planks": "2025-04-22 15:40:02 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crimson_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-04-22 15:40:02 +0300"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "fortress": "2025-04-22 15:59:13 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/nether_brick": {
-    "criteria": {
-      "has_netherrack": "2025-04-22 15:34:15 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-04-22 15:45:49 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/brewing_stand": {
-    "criteria": {
-      "has_blaze_rod": "2025-04-22 16:11:55 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_block": {
-    "criteria": {
-      "has_quartz": "2025-04-22 15:34:17 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/nether_brick_fence": {
-    "criteria": {
-      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
     },
     "done": true
   },
@@ -2918,9 +2860,231 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/daylight_detector": {
+  "minecraft:nether/find_fortress": {
     "criteria": {
-      "has_quartz": "2025-04-22 15:34:17 +0300"
+      "fortress": "2025-04-22 15:59:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-22 16:06:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-04-22 16:11:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-04-22 16:11:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-04-22 16:11:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-04-23 00:46:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-04-23 00:46:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-04-23 00:46:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-04-23 00:52:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-04-23 00:52:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-04-23 01:12:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-04-23 01:12:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-04-23 01:12:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-04-23 01:12:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-04-23 01:12:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-04-23 01:12:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-04-23 01:24:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-23 01:24:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-04-23 01:23:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-04-23 01:24:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-23 01:24:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-04-23 01:24:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-23 01:24:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-04-23 01:23:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-04-23 01:23:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-04-23 01:23:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-04-23 01:24:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-23 01:24:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-04-23 01:23:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-04-23 01:24:31 +0300"
     },
     "done": true
   },
