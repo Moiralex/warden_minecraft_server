@@ -3968,15 +3968,21 @@
     },
     "done": true
   },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2025-04-26 21:02:32 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/black_dye": {
     "criteria": {
       "has_ink_sac": "2025-04-26 21:32:06 +0300"
     },
     "done": true
   },
-  "minecraft:story/cure_zombie_villager": {
+  "minecraft:nether/distract_piglin": {
     "criteria": {
-      "cured_zombie": "2025-04-26 21:02:32 +0300"
+      "distract_piglin": "2025-04-27 12:16:24 +0300"
     },
     "done": true
   },
