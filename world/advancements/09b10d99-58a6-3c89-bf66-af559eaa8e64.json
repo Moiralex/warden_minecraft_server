@@ -495,6 +495,7 @@
       "minecraft:blaze": "2025-04-26 19:29:09 +0300",
       "minecraft:skeleton": "2025-04-21 16:27:31 +0300",
       "minecraft:phantom": "2025-04-24 17:39:26 +0300",
+      "minecraft:zombified_piglin": "2025-04-27 17:34:45 +0300",
       "minecraft:witch": "2025-04-25 20:07:59 +0300",
       "minecraft:wither_skeleton": "2025-04-26 19:30:43 +0300",
       "minecraft:ravager": "2025-04-25 20:03:56 +0300",
@@ -560,6 +561,7 @@
       "beef": "2025-04-22 14:49:31 +0300",
       "porkchop": "2025-04-26 20:29:22 +0300",
       "golden_carrot": "2025-04-26 00:54:00 +0300",
+      "beetroot": "2025-04-27 18:58:25 +0300",
       "apple": "2025-04-22 15:46:02 +0300",
       "potato": "2025-04-21 19:44:28 +0300",
       "cooked_cod": "2025-04-25 17:29:36 +0300",
@@ -3917,6 +3919,48 @@
   "minecraft:nether/return_to_sender": {
     "criteria": {
       "killed_ghast": "2025-04-26 20:08:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-04-27 19:03:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-04-27 19:03:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_open_eyeblossom": {
+    "criteria": {
+      "has_open_eyeblossom": "2025-04-27 20:20:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_open_eyeblossom": {
+    "criteria": {
+      "has_open_eyeblossom": "2025-04-27 20:20:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-04-27 22:01:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-04-27 22:06:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-04-27 22:06:18 +0300"
     },
     "done": true
   },
