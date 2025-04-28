@@ -27,10 +27,14 @@
       "minecraft:birch_forest": "2025-04-23 01:26:08 +0300",
       "minecraft:windswept_hills": "2025-04-23 01:15:31 +0300",
       "minecraft:snowy_beach": "2025-04-23 01:02:36 +0300",
+      "minecraft:wooded_badlands": "2025-04-28 20:07:39 +0300",
+      "minecraft:bamboo_jungle": "2025-04-28 20:01:27 +0300",
       "minecraft:windswept_savanna": "2025-04-23 01:15:36 +0300",
       "minecraft:deep_lukewarm_ocean": "2025-04-23 15:06:26 +0300",
+      "minecraft:badlands": "2025-04-28 20:07:27 +0300",
       "minecraft:beach": "2025-04-23 01:22:32 +0300",
       "minecraft:dark_forest": "2025-04-23 01:26:29 +0300",
+      "minecraft:sparse_jungle": "2025-04-28 20:03:20 +0300",
       "minecraft:river": "2025-04-19 15:13:23 +0300",
       "minecraft:lukewarm_ocean": "2025-04-23 15:01:08 +0300",
       "minecraft:stony_shore": "2025-04-19 14:45:14 +0300",
@@ -3946,6 +3950,12 @@
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2025-04-28 18:14:25 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "cod_bucket": "2025-04-28 19:40:46 +0300"
     },
     "done": true
   },
