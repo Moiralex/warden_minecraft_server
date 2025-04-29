@@ -3567,27 +3567,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_bed": {
-    "criteria": {
-      "has_gray_wool": "2025-04-29 17:08:32 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/black_bundle": {
-    "criteria": {
-      "has_black_dye": "2025-04-29 17:23:45 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/brown_bed": {
     "criteria": {
       "has_brown_wool": "2025-04-29 16:57:46 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-04-29 17:23:45 +0300"
     },
     "done": true
   },
@@ -3597,9 +3579,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+  "minecraft:recipes/decorations/gray_bed": {
     "criteria": {
-      "has_black_dye": "2025-04-29 17:23:45 +0300"
+      "has_gray_wool": "2025-04-29 17:08:32 +0300"
     },
     "done": true
   },
@@ -3612,6 +3594,24 @@
   "minecraft:recipes/decorations/gray_carpet": {
     "criteria": {
       "has_gray_wool": "2025-04-29 17:08:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/black_bundle": {
+    "criteria": {
+      "has_black_dye": "2025-04-29 17:23:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-04-29 17:23:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_black_dye": "2025-04-29 17:23:45 +0300"
     },
     "done": true
   },

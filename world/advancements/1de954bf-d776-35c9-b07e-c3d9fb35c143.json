@@ -34,8 +34,11 @@
       "minecraft:warm_ocean": "2025-04-29 15:08:08 +0300",
       "minecraft:deep_lukewarm_ocean": "2025-04-23 15:06:26 +0300",
       "minecraft:badlands": "2025-04-28 20:07:27 +0300",
+      "minecraft:flower_forest": "2025-04-29 21:03:06 +0300",
+      "minecraft:savanna_plateau": "2025-04-29 20:45:03 +0300",
       "minecraft:beach": "2025-04-23 01:22:32 +0300",
       "minecraft:dark_forest": "2025-04-23 01:26:29 +0300",
+      "minecraft:mangrove_swamp": "2025-04-29 20:52:14 +0300",
       "minecraft:sparse_jungle": "2025-04-28 20:03:20 +0300",
       "minecraft:river": "2025-04-19 15:13:23 +0300",
       "minecraft:lukewarm_ocean": "2025-04-23 15:01:08 +0300",
@@ -4103,6 +4106,36 @@
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2025-04-29 16:45:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/brush_armadillo": {
+    "criteria": {
+      "brush_armadillo": "2025-04-29 20:45:59 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_armadillo_scute": "2025-04-29 20:46:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2025-04-29 20:46:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2025-04-29 20:46:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2025-04-29 20:46:23 +0300"
     },
     "done": true
   },

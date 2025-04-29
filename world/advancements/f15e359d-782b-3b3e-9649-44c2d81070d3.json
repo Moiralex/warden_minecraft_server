@@ -41,6 +41,7 @@
       "minecraft:snowy_plains": "2025-04-23 01:03:48 +0300",
       "minecraft:dripstone_caves": "2025-04-19 13:35:18 +0300",
       "minecraft:snowy_taiga": "2025-04-23 01:02:44 +0300",
+      "minecraft:frozen_peaks": "2025-04-29 21:34:27 +0300",
       "minecraft:old_growth_birch_forest": "2025-04-25 01:03:55 +0300",
       "minecraft:deep_dark": "2025-04-19 13:40:16 +0300",
       "minecraft:grove": "2025-04-20 23:37:18 +0300",
@@ -4404,6 +4405,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2025-04-29 17:03:34 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dye_blue_wool": {
     "criteria": {
       "has_needed_dye": "2025-04-29 17:21:09 +0300"
@@ -4413,12 +4420,6 @@
   "minecraft:recipes/misc/cyan_dye": {
     "criteria": {
       "has_blue_dye": "2025-04-29 17:21:09 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
-    "criteria": {
-      "has_needed_dye": "2025-04-29 17:21:12 +0300"
     },
     "done": true
   },
@@ -4440,21 +4441,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_light_blue_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-04-29 17:21:12 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
     "criteria": {
       "has_blue_dye": "2025-04-29 17:21:09 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-04-29 17:21:12 +0300"
     },
     "done": true
   },
@@ -4464,21 +4453,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/trapped_chest": {
-    "criteria": {
-      "has_tripwire_hook": "2025-04-29 17:03:34 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_blue_bed": {
     "criteria": {
       "has_needed_dye": "2025-04-29 17:21:09 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone": {
+  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
     "criteria": {
-      "has_redstone_block": "2025-04-29 17:54:13 +0300"
+      "has_needed_dye": "2025-04-29 17:21:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-04-29 17:21:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-04-29 17:21:12 +0300"
     },
     "done": true
   },
@@ -4491,6 +4486,12 @@
   "minecraft:recipes/tools/light_blue_bundle": {
     "criteria": {
       "has_light_blue_dye": "2025-04-29 17:21:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-04-29 17:54:13 +0300"
     },
     "done": true
   },

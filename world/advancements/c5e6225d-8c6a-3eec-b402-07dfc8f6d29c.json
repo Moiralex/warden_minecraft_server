@@ -1136,8 +1136,10 @@
       "cooked_porkchop": "2025-04-27 17:00:00 +0300",
       "mutton": "2025-04-27 15:27:14 +0300",
       "apple": "2025-04-27 15:05:31 +0300",
+      "bread": "2025-04-29 21:23:30 +0300",
       "rotten_flesh": "2025-04-27 15:27:22 +0300",
       "potato": "2025-04-27 15:56:18 +0300",
+      "salmon": "2025-04-29 21:25:25 +0300",
       "cooked_beef": "2025-04-27 15:01:57 +0300",
       "baked_potato": "2025-04-25 01:05:29 +0300",
       "melon_slice": "2025-04-27 13:04:16 +0300",
@@ -2394,9 +2396,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+  "minecraft:adventure/shoot_arrow": {
     "criteria": {
-      "has_nether_bricks": "2025-04-27 17:06:00 +0300"
+      "shot_arrow": "2025-04-27 16:49:52 +0300"
     },
     "done": true
   },
@@ -2406,9 +2408,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+  "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
-      "has_nether_bricks": "2025-04-27 17:06:00 +0300"
+      "has_red_mushroom": "2025-04-27 16:59:09 +0300"
     },
     "done": true
   },
@@ -2418,9 +2420,27 @@
     },
     "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
+  "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
-      "shot_arrow": "2025-04-27 16:49:52 +0300"
+      "has_blaze_rod": "2025-04-27 17:04:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-04-27 17:04:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-27 17:06:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-27 17:06:00 +0300"
     },
     "done": true
   },
@@ -2442,12 +2462,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2025-04-27 17:04:34 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2025-04-27 17:06:00 +0300"
@@ -2460,33 +2474,63 @@
     },
     "done": true
   },
-  "minecraft:nether/find_bastion": {
-    "criteria": {
-      "bastion": "2025-04-27 17:21:58 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/nether_brick_wall": {
     "criteria": {
       "has_nether_bricks": "2025-04-27 17:06:00 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_red_mushroom": "2025-04-27 16:59:09 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/brewing_stand": {
-    "criteria": {
-      "has_blaze_rod": "2025-04-27 17:04:34 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_bricks": "2025-04-27 17:06:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-04-27 17:21:58 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-04-29 21:19:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-04-29 21:19:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-04-29 21:19:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-04-29 21:20:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-04-29 21:20:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-04-29 21:52:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-04-29 21:45:54 +0300"
     },
     "done": true
   },
