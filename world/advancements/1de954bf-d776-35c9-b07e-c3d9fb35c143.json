@@ -7,34 +7,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cold_ocean": "2025-04-23 00:57:01 +0300",
       "minecraft:snowy_slopes": "2025-04-19 14:27:27 +0300",
       "minecraft:old_growth_pine_taiga": "2025-04-19 20:42:28 +0300",
       "minecraft:mushroom_fields": "2025-04-24 16:06:33 +0300",
-      "minecraft:forest": "2025-04-19 15:23:33 +0300",
       "minecraft:taiga": "2025-04-19 20:40:17 +0300",
       "minecraft:deep_ocean": "2025-04-23 15:15:49 +0300",
-      "minecraft:lush_caves": "2025-04-26 15:34:43 +0300",
-      "minecraft:deep_cold_ocean": "2025-04-23 00:58:00 +0300",
-      "minecraft:ice_spikes": "2025-04-23 01:04:56 +0300",
-      "minecraft:frozen_ocean": "2025-04-23 01:02:25 +0300",
-      "minecraft:desert": "2025-04-29 15:07:44 +0300",
       "minecraft:frozen_river": "2025-04-19 21:15:09 +0300",
-      "minecraft:deep_frozen_ocean": "2025-04-23 01:00:59 +0300",
-      "minecraft:windswept_forest": "2025-04-23 15:36:49 +0300",
-      "minecraft:ocean": "2025-04-23 01:23:22 +0300",
-      "minecraft:jungle": "2025-04-23 15:01:30 +0300",
       "minecraft:cherry_grove": "2025-04-19 15:17:09 +0300",
       "minecraft:birch_forest": "2025-04-23 01:26:08 +0300",
       "minecraft:windswept_hills": "2025-04-23 01:15:31 +0300",
-      "minecraft:snowy_beach": "2025-04-23 01:02:36 +0300",
       "minecraft:wooded_badlands": "2025-04-28 20:07:39 +0300",
       "minecraft:bamboo_jungle": "2025-04-28 20:01:27 +0300",
-      "minecraft:windswept_savanna": "2025-04-23 01:15:36 +0300",
-      "minecraft:warm_ocean": "2025-04-29 15:08:08 +0300",
-      "minecraft:deep_lukewarm_ocean": "2025-04-23 15:06:26 +0300",
       "minecraft:badlands": "2025-04-28 20:07:27 +0300",
-      "minecraft:flower_forest": "2025-04-29 21:03:06 +0300",
       "minecraft:savanna_plateau": "2025-04-29 20:45:03 +0300",
       "minecraft:beach": "2025-04-23 01:22:32 +0300",
       "minecraft:dark_forest": "2025-04-23 01:26:29 +0300",
@@ -46,15 +30,32 @@
       "minecraft:snowy_plains": "2025-04-23 01:02:57 +0300",
       "minecraft:dripstone_caves": "2025-04-19 15:00:33 +0300",
       "minecraft:snowy_taiga": "2025-04-23 01:02:46 +0300",
-      "minecraft:old_growth_birch_forest": "2025-04-23 01:27:54 +0300",
-      "minecraft:deep_dark": "2025-04-19 14:31:36 +0300",
       "minecraft:grove": "2025-04-20 22:02:16 +0300",
       "minecraft:swamp": "2025-04-23 15:28:19 +0300",
+      "minecraft:jagged_peaks": "2025-04-21 16:18:20 +0300",
+      "minecraft:cold_ocean": "2025-04-23 00:57:01 +0300",
+      "minecraft:forest": "2025-04-19 15:23:33 +0300",
+      "minecraft:lush_caves": "2025-04-26 15:34:43 +0300",
+      "minecraft:deep_cold_ocean": "2025-04-23 00:58:00 +0300",
+      "minecraft:ice_spikes": "2025-04-23 01:04:56 +0300",
+      "minecraft:frozen_ocean": "2025-04-23 01:02:25 +0300",
+      "minecraft:desert": "2025-04-29 15:07:44 +0300",
+      "minecraft:deep_frozen_ocean": "2025-04-23 01:00:59 +0300",
+      "minecraft:windswept_forest": "2025-04-23 15:36:49 +0300",
+      "minecraft:ocean": "2025-04-23 01:23:22 +0300",
+      "minecraft:jungle": "2025-04-23 15:01:30 +0300",
+      "minecraft:old_growth_spruce_taiga": "2025-05-01 01:44:04 +0300",
+      "minecraft:snowy_beach": "2025-04-23 01:02:36 +0300",
+      "minecraft:windswept_savanna": "2025-04-23 01:15:36 +0300",
+      "minecraft:warm_ocean": "2025-04-29 15:08:08 +0300",
+      "minecraft:deep_lukewarm_ocean": "2025-04-23 15:06:26 +0300",
+      "minecraft:flower_forest": "2025-04-29 21:03:06 +0300",
+      "minecraft:old_growth_birch_forest": "2025-04-23 01:27:54 +0300",
+      "minecraft:deep_dark": "2025-04-19 14:31:36 +0300",
       "minecraft:meadow": "2025-04-19 14:59:09 +0300",
       "minecraft:windswept_gravelly_hills": "2025-04-23 15:24:16 +0300",
       "minecraft:savanna": "2025-04-23 15:07:49 +0300",
-      "minecraft:plains": "2025-04-19 14:23:20 +0300",
-      "minecraft:jagged_peaks": "2025-04-21 16:18:20 +0300"
+      "minecraft:plains": "2025-04-19 14:23:20 +0300"
     },
     "done": false
   },
@@ -484,7 +485,8 @@
       "cooked_chicken": "2025-04-19 15:16:20 +0300",
       "cooked_cod": "2025-04-26 02:01:30 +0300",
       "cooked_salmon": "2025-04-25 01:25:22 +0300",
-      "pumpkin_pie": "2025-04-26 01:46:58 +0300"
+      "pumpkin_pie": "2025-04-26 01:46:58 +0300",
+      "carrot": "2025-05-01 02:05:43 +0300"
     },
     "done": false
   },
@@ -707,16 +709,20 @@
       "minecraft:zombified_piglin": "2025-04-23 00:36:52 +0300",
       "minecraft:witch": "2025-04-23 01:04:19 +0300",
       "minecraft:wither_skeleton": "2025-04-23 00:32:24 +0300",
+      "minecraft:ravager": "2025-05-01 00:31:31 +0300",
       "minecraft:ghast": "2025-04-27 17:16:00 +0300",
       "minecraft:hoglin": "2025-04-27 17:50:35 +0300",
       "minecraft:cave_spider": "2025-04-19 20:55:42 +0300",
       "minecraft:breeze": "2025-04-20 21:31:19 +0300",
+      "minecraft:vindicator": "2025-05-01 00:24:19 +0300",
       "minecraft:silverfish": "2025-04-19 18:21:14 +0300",
       "minecraft:magma_cube": "2025-04-27 17:05:22 +0300",
       "minecraft:spider": "2025-04-19 15:02:33 +0300",
+      "minecraft:vex": "2025-05-01 00:52:43 +0300",
       "minecraft:zombie": "2025-04-19 14:36:30 +0300",
       "minecraft:creeper": "2025-04-19 15:04:51 +0300",
-      "minecraft:drowned": "2025-04-25 16:35:33 +0300"
+      "minecraft:drowned": "2025-04-25 16:35:33 +0300",
+      "minecraft:evoker": "2025-05-01 00:42:57 +0300"
     },
     "done": false
   },
@@ -4136,6 +4142,120 @@
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2025-04-29 20:46:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2025-05-01 01:55:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-05-01 02:00:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:woods": "2025-05-01 02:00:12 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/green_bundle": {
+    "criteria": {
+      "has_green_dye": "2025-05-01 02:03:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-05-01 02:03:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-05-01 02:03:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_green_dye": "2025-05-01 02:03:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2025-05-01 02:03:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-05-01 02:03:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2025-05-01 02:04:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_cactus_flower": {
+    "criteria": {
+      "has_cactus_flower": "2025-05-01 02:08:07 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_candle": {
+    "criteria": {
+      "has_cyan_dye": "2025-05-01 02:17:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-05-01 02:17:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-05-01 02:17:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_cyan_dye": "2025-05-01 02:17:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-05-01 02:17:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/cyan_bundle": {
+    "criteria": {
+      "has_cyan_dye": "2025-05-01 02:17:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2025-05-01 02:17:14 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-05-01 15:43:23 +0300"
     },
     "done": true
   },
