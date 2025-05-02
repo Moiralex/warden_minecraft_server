@@ -710,6 +710,7 @@
       "minecraft:witch": "2025-04-23 01:04:19 +0300",
       "minecraft:wither_skeleton": "2025-04-23 00:32:24 +0300",
       "minecraft:ravager": "2025-05-01 00:31:31 +0300",
+      "minecraft:bogged": "2025-05-02 02:15:55 +0300",
       "minecraft:ghast": "2025-04-27 17:16:00 +0300",
       "minecraft:hoglin": "2025-04-27 17:50:35 +0300",
       "minecraft:cave_spider": "2025-04-19 20:55:42 +0300",
@@ -722,6 +723,7 @@
       "minecraft:zombie": "2025-04-19 14:36:30 +0300",
       "minecraft:creeper": "2025-04-19 15:04:51 +0300",
       "minecraft:drowned": "2025-04-25 16:35:33 +0300",
+      "minecraft:zombie_villager": "2025-05-02 01:39:42 +0300",
       "minecraft:evoker": "2025-05-01 00:42:57 +0300"
     },
     "done": false
@@ -1107,6 +1109,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:pig": "2025-04-19 19:08:27 +0300",
+      "minecraft:turtle": "2025-05-02 01:39:39 +0300",
       "minecraft:sheep": "2025-04-19 15:42:37 +0300"
     },
     "done": false
@@ -4256,6 +4259,42 @@
   "minecraft:recipes/decorations/armor_stand": {
     "criteria": {
       "has_stone_slab": "2025-05-01 15:43:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2025-05-02 02:12:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bordure_indented_banner_pattern": {
+    "criteria": {
+      "has_vines": "2025-05-02 02:12:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-05-02 01:54:40 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-05-02 01:54:40 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-05-02 01:54:40 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2025-05-02 02:12:45 +0300"
     },
     "done": true
   },

@@ -442,6 +442,7 @@
       "minecraft:witch": "2025-04-25 19:49:24 +0300",
       "minecraft:wither_skeleton": "2025-04-22 16:11:12 +0300",
       "minecraft:ravager": "2025-05-01 00:49:51 +0300",
+      "minecraft:ghast": "2025-05-02 04:21:05 +0300",
       "minecraft:hoglin": "2025-04-23 00:27:18 +0300",
       "minecraft:cave_spider": "2025-04-19 21:11:31 +0300",
       "minecraft:piglin": "2025-04-22 15:44:08 +0300",
@@ -4554,6 +4555,72 @@
   "minecraft:recipes/misc/leaf_litter": {
     "criteria": {
       "has_leaves": "2025-05-01 15:22:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-05-02 04:27:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-05-02 04:27:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-05-02 04:21:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-05-02 04:27:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-05-02 01:27:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-05-02 04:25:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-02 05:27:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-05-02 04:27:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-05-02 04:22:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-05-02 05:27:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-05-02 03:39:18 +0300"
     },
     "done": true
   },
