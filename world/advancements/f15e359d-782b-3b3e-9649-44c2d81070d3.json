@@ -687,8 +687,10 @@
       "melon_slice": "2025-04-25 00:59:56 +0300",
       "porkchop": "2025-05-02 14:50:27 +0300",
       "beetroot": "2025-04-26 00:14:11 +0300",
+      "golden_carrot": "2025-05-03 01:24:31 +0300",
       "apple": "2025-04-22 15:29:26 +0300",
       "cooked_chicken": "2025-04-19 13:35:52 +0300",
+      "enchanted_golden_apple": "2025-05-03 01:37:44 +0300",
       "potato": "2025-04-20 21:41:01 +0300",
       "carrot": "2025-04-26 00:16:35 +0300"
     },
@@ -4802,27 +4804,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
-    "criteria": {
-      "has_flow_armor_trim_smithing_template": "2025-05-02 19:08:17 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_chiseled_copper": {
     "criteria": {
       "has_waxed_cut_copper_slab": "2025-05-02 19:03:16 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-05-02 19:08:17 +0300"
-    },
-    "done": true
-  },
   "minecraft:adventure/revaulting": {
     "criteria": {
       "revaulting": "2025-05-02 19:08:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
+    "criteria": {
+      "has_flow_armor_trim_smithing_template": "2025-05-02 19:08:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-05-02 19:08:17 +0300"
     },
     "done": true
   },
@@ -4835,6 +4837,72 @@
   "minecraft:adventure/who_needs_rockets": {
     "criteria": {
       "who_needs_rockets": "2025-05-02 19:23:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-05-03 03:54:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-05-03 03:54:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-05-03 03:54:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-05-03 03:54:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-05-03 03:54:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-05-03 03:53:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-05-03 03:54:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-05-03 03:54:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-05-03 03:54:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-05-03 03:54:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-05-03 03:54:06 +0300"
     },
     "done": true
   },

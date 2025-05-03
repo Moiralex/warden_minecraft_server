@@ -4759,12 +4759,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dripstone_block": {
-    "criteria": {
-      "has_pointed_dripstone": "2025-05-02 19:28:10 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_tuff_stairs": {
     "criteria": {
       "has_polished_tuff": "2025-05-02 19:10:34 +0300"
@@ -4810,6 +4804,66 @@
   "minecraft:recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting": {
     "criteria": {
       "has_polished_tuff": "2025-05-02 19:10:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-05-02 19:28:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_candle": {
+    "criteria": {
+      "has_cyan_dye": "2025-05-03 03:17:35 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-05-03 03:17:35 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2025-05-03 03:31:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-05-03 03:17:35 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_cyan_dye": "2025-05-03 03:17:35 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-05-03 03:17:35 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-05-03 02:56:58 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/cyan_bundle": {
+    "criteria": {
+      "has_cyan_dye": "2025-05-03 03:17:35 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2025-05-03 02:29:32 +0300"
     },
     "done": true
   },

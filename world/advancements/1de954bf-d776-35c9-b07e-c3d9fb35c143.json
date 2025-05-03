@@ -706,27 +706,28 @@
       "minecraft:pillager": "2025-04-19 20:40:23 +0300",
       "minecraft:blaze": "2025-04-23 00:32:35 +0300",
       "minecraft:skeleton": "2025-04-19 14:55:44 +0300",
-      "minecraft:phantom": "2025-04-29 15:56:35 +0300",
-      "minecraft:zombified_piglin": "2025-04-23 00:36:52 +0300",
-      "minecraft:witch": "2025-04-23 01:04:19 +0300",
-      "minecraft:wither_skeleton": "2025-04-23 00:32:24 +0300",
       "minecraft:ravager": "2025-05-01 00:31:31 +0300",
       "minecraft:bogged": "2025-05-02 02:15:55 +0300",
       "minecraft:ghast": "2025-04-27 17:16:00 +0300",
       "minecraft:hoglin": "2025-04-27 17:50:35 +0300",
-      "minecraft:cave_spider": "2025-04-19 20:55:42 +0300",
       "minecraft:breeze": "2025-04-20 21:31:19 +0300",
       "minecraft:vindicator": "2025-05-01 00:24:19 +0300",
-      "minecraft:silverfish": "2025-04-19 18:21:14 +0300",
-      "minecraft:enderman": "2025-05-02 16:48:54 +0300",
       "minecraft:magma_cube": "2025-04-27 17:05:22 +0300",
       "minecraft:spider": "2025-04-19 15:02:33 +0300",
+      "minecraft:creeper": "2025-04-19 15:04:51 +0300",
+      "minecraft:evoker": "2025-05-01 00:42:57 +0300",
+      "minecraft:phantom": "2025-04-29 15:56:35 +0300",
+      "minecraft:zombified_piglin": "2025-04-23 00:36:52 +0300",
+      "minecraft:witch": "2025-04-23 01:04:19 +0300",
+      "minecraft:wither_skeleton": "2025-04-23 00:32:24 +0300",
+      "minecraft:cave_spider": "2025-04-19 20:55:42 +0300",
+      "minecraft:piglin": "2025-05-03 02:46:10 +0300",
+      "minecraft:silverfish": "2025-04-19 18:21:14 +0300",
+      "minecraft:enderman": "2025-05-02 16:48:54 +0300",
       "minecraft:vex": "2025-05-01 00:52:43 +0300",
       "minecraft:zombie": "2025-04-19 14:36:30 +0300",
-      "minecraft:creeper": "2025-04-19 15:04:51 +0300",
       "minecraft:drowned": "2025-04-25 16:35:33 +0300",
-      "minecraft:zombie_villager": "2025-05-02 01:39:42 +0300",
-      "minecraft:evoker": "2025-05-01 00:42:57 +0300"
+      "minecraft:zombie_villager": "2025-05-02 01:39:42 +0300"
     },
     "done": false
   },
@@ -4351,6 +4352,90 @@
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
       "has_enchanted_golden_apple": "2025-05-02 16:25:58 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-05-03 02:05:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-05-03 02:08:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-05-03 02:08:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2025-05-03 02:12:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_lime_dye": "2025-05-03 02:16:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-05-03 02:16:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lime_bundle": {
+    "criteria": {
+      "has_lime_dye": "2025-05-03 02:16:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_candle": {
+    "criteria": {
+      "has_lime_dye": "2025-05-03 02:16:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-05-03 02:16:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-05-03 02:16:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_carpet": {
+    "criteria": {
+      "has_lime_wool": "2025-05-03 02:18:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_banner": {
+    "criteria": {
+      "has_lime_wool": "2025-05-03 02:18:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed": {
+    "criteria": {
+      "has_lime_wool": "2025-05-03 02:18:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2025-05-03 02:29:20 +0300"
     },
     "done": true
   },
