@@ -813,6 +813,7 @@
       "mutton": "2025-04-21 19:18:27 +0300",
       "bread": "2025-04-22 15:38:46 +0300",
       "cooked_mutton": "2025-04-21 20:11:58 +0300",
+      "salmon": "2025-05-04 20:52:07 +0300",
       "cooked_beef": "2025-04-23 14:56:22 +0300",
       "baked_potato": "2025-04-21 16:39:24 +0300",
       "beef": "2025-04-21 19:24:58 +0300",
@@ -4284,6 +4285,48 @@
   "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
     "criteria": {
       "has_netherite_upgrade_smithing_template": "2025-05-03 03:51:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-04 19:51:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-05-04 22:47:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-04 19:51:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-04 19:51:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-04 19:51:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-05-04 20:24:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2025-05-04 19:51:03 +0300"
     },
     "done": true
   },
