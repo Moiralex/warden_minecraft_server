@@ -24,11 +24,14 @@
       "minecraft:jungle": "2025-04-22 15:15:58 +0300",
       "minecraft:ocean": "2025-04-23 14:51:44 +0300",
       "minecraft:cherry_grove": "2025-04-20 19:02:12 +0300",
+      "minecraft:sunflower_plains": "2025-05-07 16:12:42 +0300",
       "minecraft:birch_forest": "2025-04-23 14:55:24 +0300",
       "minecraft:windswept_hills": "2025-04-25 17:15:01 +0300",
       "minecraft:old_growth_spruce_taiga": "2025-04-25 17:33:45 +0300",
       "minecraft:snowy_beach": "2025-04-21 19:44:43 +0300",
+      "minecraft:bamboo_jungle": "2025-05-07 15:50:12 +0300",
       "minecraft:windswept_savanna": "2025-04-25 17:32:10 +0300",
+      "minecraft:flower_forest": "2025-05-07 16:11:44 +0300",
       "minecraft:beach": "2025-04-21 19:42:47 +0300",
       "minecraft:dark_forest": "2025-04-23 14:57:06 +0300",
       "minecraft:mangrove_swamp": "2025-05-01 18:03:59 +0300",
@@ -622,6 +625,7 @@
       "minecraft:zombified_piglin": "2025-04-22 15:46:04 +0300",
       "minecraft:witch": "2025-04-21 17:36:36 +0300",
       "minecraft:wither_skeleton": "2025-04-22 16:02:58 +0300",
+      "minecraft:husk": "2025-05-07 16:16:14 +0300",
       "minecraft:cave_spider": "2025-04-26 01:49:27 +0300",
       "minecraft:piglin": "2025-04-22 15:44:24 +0300",
       "minecraft:enderman": "2025-04-22 15:58:37 +0300",
@@ -4294,12 +4298,6 @@
     },
     "done": true
   },
-  "minecraft:husbandry/tame_an_animal": {
-    "criteria": {
-      "tamed_animal": "2025-05-04 22:47:57 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/furnace_minecart": {
     "criteria": {
       "has_minecart": "2025-05-04 19:51:03 +0300"
@@ -4318,15 +4316,87 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2025-05-04 19:51:03 +0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2025-05-04 20:24:05 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/rail": {
+  "minecraft:husbandry/tame_an_animal": {
     "criteria": {
-      "has_minecart": "2025-05-04 19:51:03 +0300"
+      "tamed_animal": "2025-05-04 22:47:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-05-06 15:46:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-05-06 16:19:48 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-05-06 16:19:48 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-05-06 16:31:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-05-06 16:34:59 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-05-06 16:42:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2025-05-06 16:42:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2025-05-07 01:26:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2025-05-07 01:26:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2025-05-07 01:26:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2025-05-07 01:26:23 +0300"
     },
     "done": true
   },

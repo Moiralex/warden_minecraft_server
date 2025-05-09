@@ -47,6 +47,7 @@
       "minecraft:snowy_taiga": "2025-04-26 13:18:58 +0300",
       "minecraft:dripstone_caves": "2025-05-02 17:46:27 +0300",
       "minecraft:old_growth_birch_forest": "2025-04-23 15:13:43 +0300",
+      "minecraft:deep_dark": "2025-05-06 19:39:46 +0300",
       "minecraft:swamp": "2025-04-23 01:17:30 +0300",
       "minecraft:grove": "2025-05-01 01:43:20 +0300",
       "minecraft:meadow": "2025-04-21 16:05:03 +0300",
@@ -555,10 +556,12 @@
       "minecraft:zombified_piglin": "2025-04-25 19:28:41 +0300",
       "minecraft:witch": "2025-04-21 16:49:22 +0300",
       "minecraft:wither_skeleton": "2025-04-27 16:57:46 +0300",
+      "minecraft:husk": "2025-05-06 20:43:47 +0300",
       "minecraft:cave_spider": "2025-04-26 14:30:18 +0300",
       "minecraft:piglin": "2025-04-22 16:48:42 +0300",
       "minecraft:enderman": "2025-04-26 14:15:59 +0300",
       "minecraft:silverfish": "2025-05-02 19:16:29 +0300",
+      "minecraft:endermite": "2025-05-06 20:34:56 +0300",
       "minecraft:vex": "2025-05-01 00:39:14 +0300",
       "minecraft:zombie": "2025-04-21 16:45:36 +0300",
       "minecraft:drowned": "2025-04-26 13:13:43 +0300",
@@ -4900,6 +4903,42 @@
   "minecraft:recipes/building_blocks/dye_lime_carpet": {
     "criteria": {
       "has_needed_dye": "2025-05-04 21:11:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-05-06 19:49:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-05-06 20:49:53 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-05-06 20:56:02 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-05-09 18:18:54 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template": {
+    "criteria": {
+      "has_bolt_armor_trim_smithing_template": "2025-05-09 18:18:54 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2025-05-09 18:26:13 +0300"
     },
     "done": true
   },

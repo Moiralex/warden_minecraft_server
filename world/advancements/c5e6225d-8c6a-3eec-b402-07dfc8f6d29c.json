@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2025-04-25 00:30:34 +0300",
       "minecraft:snowy_slopes": "2025-04-26 15:34:48 +0300",
+      "minecraft:old_growth_pine_taiga": "2025-05-08 21:59:14 +0300",
       "minecraft:forest": "2025-04-27 16:03:38 +0300",
       "minecraft:taiga": "2025-04-26 15:29:29 +0300",
       "minecraft:deep_ocean": "2025-04-26 15:58:47 +0300",
@@ -16,14 +17,19 @@
       "minecraft:deep_cold_ocean": "2025-04-26 15:57:32 +0300",
       "minecraft:frozen_ocean": "2025-04-26 15:36:27 +0300",
       "minecraft:desert": "2025-05-01 21:41:14 +0300",
+      "minecraft:frozen_river": "2025-05-08 21:59:50 +0300",
       "minecraft:deep_frozen_ocean": "2025-04-26 15:54:43 +0300",
       "minecraft:ocean": "2025-04-26 15:59:23 +0300",
       "minecraft:jungle": "2025-05-02 20:50:52 +0300",
       "minecraft:cherry_grove": "2025-04-27 15:02:51 +0300",
       "minecraft:sunflower_plains": "2025-05-02 20:47:19 +0300",
       "minecraft:birch_forest": "2025-05-01 21:32:31 +0300",
+      "minecraft:windswept_hills": "2025-05-07 16:31:44 +0300",
       "minecraft:snowy_beach": "2025-04-26 15:54:04 +0300",
       "minecraft:wooded_badlands": "2025-05-01 21:39:34 +0300",
+      "minecraft:bamboo_jungle": "2025-05-08 22:04:33 +0300",
+      "minecraft:windswept_savanna": "2025-05-07 16:31:27 +0300",
+      "minecraft:warm_ocean": "2025-05-08 22:03:57 +0300",
       "minecraft:deep_lukewarm_ocean": "2025-05-02 20:53:32 +0300",
       "minecraft:beach": "2025-05-02 20:47:14 +0300",
       "minecraft:sparse_jungle": "2025-05-01 21:39:01 +0300",
@@ -1125,6 +1131,7 @@
       "minecraft:zombified_piglin": "2025-05-02 23:50:30 +0300",
       "minecraft:witch": "2025-04-30 20:16:08 +0300",
       "minecraft:wither_skeleton": "2025-04-27 14:52:33 +0300",
+      "minecraft:husk": "2025-05-07 16:16:20 +0300",
       "minecraft:cave_spider": "2025-05-02 17:42:39 +0300",
       "minecraft:piglin": "2025-05-01 17:02:14 +0300",
       "minecraft:enderman": "2025-04-30 23:52:04 +0300",
@@ -4349,6 +4356,180 @@
   "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_honeycomb": {
     "criteria": {
       "has_oxidized_cut_copper_stairs": "2025-05-04 21:10:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-05-06 21:14:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-05-06 21:14:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-05-06 21:14:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-05-06 21:14:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-05-06 21:14:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper_slab": "2025-05-06 21:14:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-07 16:59:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-07 16:59:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-07 16:59:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-07 16:59:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-07 16:59:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-07 16:59:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-05-08 14:31:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_off": {
+    "criteria": {
+      "wax_off": "2025-05-08 15:41:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_honeycomb": {
+    "criteria": {
+      "has_weathered_cut_copper_stairs": "2025-05-08 15:42:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-05-08 22:04:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-05-08 22:04:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-05-08 22:05:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-05-08 22:05:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-05-08 22:05:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-08 22:24:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-05-08 22:24:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-05-08 22:24:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-08 22:24:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-08 22:24:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-05-08 22:19:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-05-08 22:24:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-05-08 22:24:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-05-08 22:19:08 +0300"
     },
     "done": true
   },
